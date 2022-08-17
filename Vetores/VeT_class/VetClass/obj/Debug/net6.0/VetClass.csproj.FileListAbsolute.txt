@@ -1,0 +1,15 @@
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VeT_class\VetClass\bin\Debug\net6.0\VetClass.exe
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VeT_class\VetClass\bin\Debug\net6.0\VetClass.deps.json
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VeT_class\VetClass\bin\Debug\net6.0\VetClass.runtimeconfig.json
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VeT_class\VetClass\bin\Debug\net6.0\VetClass.dll
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VeT_class\VetClass\bin\Debug\net6.0\VetClass.pdb
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VeT_class\VetClass\obj\Debug\net6.0\VetClass.csproj.AssemblyReference.cache
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VeT_class\VetClass\obj\Debug\net6.0\VetClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VeT_class\VetClass\obj\Debug\net6.0\VetClass.AssemblyInfoInputs.cache
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VeT_class\VetClass\obj\Debug\net6.0\VetClass.AssemblyInfo.cs
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VeT_class\VetClass\obj\Debug\net6.0\VetClass.csproj.CoreCompileInputs.cache
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VeT_class\VetClass\obj\Debug\net6.0\VetClass.dll
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VeT_class\VetClass\obj\Debug\net6.0\refint\VetClass.dll
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VeT_class\VetClass\obj\Debug\net6.0\VetClass.pdb
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VeT_class\VetClass\obj\Debug\net6.0\VetClass.genruntimeconfig.cache
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VeT_class\VetClass\obj\Debug\net6.0\ref\VetClass.dll
