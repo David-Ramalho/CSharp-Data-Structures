@@ -1,0 +1,15 @@
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\Vetores\Vetorees\bin\Debug\net6.0\Vetorees.exe
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\Vetores\Vetorees\bin\Debug\net6.0\Vetorees.deps.json
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\Vetores\Vetorees\bin\Debug\net6.0\Vetorees.runtimeconfig.json
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\Vetores\Vetorees\bin\Debug\net6.0\Vetorees.dll
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\Vetores\Vetorees\bin\Debug\net6.0\Vetorees.pdb
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\Vetores\Vetorees\obj\Debug\net6.0\Vetorees.csproj.AssemblyReference.cache
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\Vetores\Vetorees\obj\Debug\net6.0\Vetorees.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\Vetores\Vetorees\obj\Debug\net6.0\Vetorees.AssemblyInfoInputs.cache
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\Vetores\Vetorees\obj\Debug\net6.0\Vetorees.AssemblyInfo.cs
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\Vetores\Vetorees\obj\Debug\net6.0\Vetorees.csproj.CoreCompileInputs.cache
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\Vetores\Vetorees\obj\Debug\net6.0\Vetorees.dll
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\Vetores\Vetorees\obj\Debug\net6.0\refint\Vetorees.dll
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\Vetores\Vetorees\obj\Debug\net6.0\Vetorees.pdb
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\Vetores\Vetorees\obj\Debug\net6.0\Vetorees.genruntimeconfig.cache
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\Vetores\Vetorees\obj\Debug\net6.0\ref\Vetorees.dll
