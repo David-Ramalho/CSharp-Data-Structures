@@ -1,0 +1,15 @@
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VetorCalculator\VetorCalculator\bin\Debug\net6.0\VetorCalculator.exe
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VetorCalculator\VetorCalculator\bin\Debug\net6.0\VetorCalculator.deps.json
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VetorCalculator\VetorCalculator\bin\Debug\net6.0\VetorCalculator.runtimeconfig.json
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VetorCalculator\VetorCalculator\bin\Debug\net6.0\VetorCalculator.dll
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VetorCalculator\VetorCalculator\bin\Debug\net6.0\VetorCalculator.pdb
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VetorCalculator\VetorCalculator\obj\Debug\net6.0\VetorCalculator.csproj.AssemblyReference.cache
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VetorCalculator\VetorCalculator\obj\Debug\net6.0\VetorCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VetorCalculator\VetorCalculator\obj\Debug\net6.0\VetorCalculator.AssemblyInfoInputs.cache
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VetorCalculator\VetorCalculator\obj\Debug\net6.0\VetorCalculator.AssemblyInfo.cs
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VetorCalculator\VetorCalculator\obj\Debug\net6.0\VetorCalculator.csproj.CoreCompileInputs.cache
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VetorCalculator\VetorCalculator\obj\Debug\net6.0\VetorCalculator.dll
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VetorCalculator\VetorCalculator\obj\Debug\net6.0\refint\VetorCalculator.dll
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VetorCalculator\VetorCalculator\obj\Debug\net6.0\VetorCalculator.pdb
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VetorCalculator\VetorCalculator\obj\Debug\net6.0\VetorCalculator.genruntimeconfig.cache
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VetorCalculator\VetorCalculator\obj\Debug\net6.0\ref\VetorCalculator.dll

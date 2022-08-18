@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>VetorCalculator</id>
+    <version>1.0.0</version>
+    <authors>VetorCalculator</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VetorCalculator\VetorCalculator\bin\Debug\net6.0\VetorCalculator.runtimeconfig.json" target="lib\net6.0\VetorCalculator.runtimeconfig.json" />
+    <file src="C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\VetorCalculator\VetorCalculator\bin\Debug\net6.0\VetorCalculator.dll" target="lib\net6.0\VetorCalculator.dll" />
+  </files>
+</package>
