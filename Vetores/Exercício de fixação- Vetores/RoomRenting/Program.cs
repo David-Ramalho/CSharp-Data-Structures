@@ -63,10 +63,10 @@ namespace Course
                             {
                                 Console.Clear();
                                 Console.WriteLine("  *** Bem vindo a pensão da Dona Joana ***");
-                                Console.WriteLine("Quarto não disponivel! ");                                
+                                Console.WriteLine("Quarto não disponivel! ");
                             }
                         }
-                        
+
                     }
 
                     Console.ReadKey();
@@ -75,7 +75,21 @@ namespace Course
                 {
                     Console.Clear();
                     Console.WriteLine("  *** Bem vindo a pensão da Dona Joana ***");
-                    Console.WriteLine("Relatório");
+                    Console.WriteLine("\nRelatório de alugados:\n");
+                    for (i = 0; i < 10; i++)
+                    {
+                        if (quarto[i] != null)
+                        {
+                            quarto[i].RelatorioGeral();                            
+                        }
+                        else if(quarto[i] == null)
+                        {
+                            Console.WriteLine(" ");
+                            Console.WriteLine("Quarto "+ i+"° desocupado");
+                            
+                        }
+                    }
+
                     Console.ReadKey();
                 }
                 else if (i == 0)
