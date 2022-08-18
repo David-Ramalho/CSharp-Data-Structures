@@ -1,0 +1,15 @@
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\Exercício de fixação- Vetores\RoomRenting\bin\Debug\net6.0\RoomRenting.exe
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\Exercício de fixação- Vetores\RoomRenting\bin\Debug\net6.0\RoomRenting.deps.json
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\Exercício de fixação- Vetores\RoomRenting\bin\Debug\net6.0\RoomRenting.runtimeconfig.json
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\Exercício de fixação- Vetores\RoomRenting\bin\Debug\net6.0\RoomRenting.dll
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\Exercício de fixação- Vetores\RoomRenting\bin\Debug\net6.0\RoomRenting.pdb
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\Exercício de fixação- Vetores\RoomRenting\obj\Debug\net6.0\RoomRenting.csproj.AssemblyReference.cache
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\Exercício de fixação- Vetores\RoomRenting\obj\Debug\net6.0\RoomRenting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\Exercício de fixação- Vetores\RoomRenting\obj\Debug\net6.0\RoomRenting.AssemblyInfoInputs.cache
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\Exercício de fixação- Vetores\RoomRenting\obj\Debug\net6.0\RoomRenting.AssemblyInfo.cs
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\Exercício de fixação- Vetores\RoomRenting\obj\Debug\net6.0\RoomRenting.csproj.CoreCompileInputs.cache
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\Exercício de fixação- Vetores\RoomRenting\obj\Debug\net6.0\RoomRenting.dll
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\Exercício de fixação- Vetores\RoomRenting\obj\Debug\net6.0\refint\RoomRenting.dll
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\Exercício de fixação- Vetores\RoomRenting\obj\Debug\net6.0\RoomRenting.pdb
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\Exercício de fixação- Vetores\RoomRenting\obj\Debug\net6.0\RoomRenting.genruntimeconfig.cache
+C:\Users\tavar\Documents\GITHuB\C# Data Structures\CSharp--Data-Structures\Vetores\Exercício de fixação- Vetores\RoomRenting\obj\Debug\net6.0\ref\RoomRenting.dll
