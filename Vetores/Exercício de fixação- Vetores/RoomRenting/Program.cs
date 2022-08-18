@@ -40,6 +40,7 @@ namespace Course
                         if (Qn > 10)
                         {
                             Console.WriteLine("´Temos apenas 10 quartos! números de 0 a 9!");
+                            j = n; //to make sure to exit loop if the user tries to exceed the array range.
                         }
                         else
                         {
