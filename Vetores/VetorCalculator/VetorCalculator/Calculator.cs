@@ -9,15 +9,16 @@ namespace VetorCalculator
     internal class Calculator
     {
 
-        public static void add(params int[] num)
+        public static double add(params double[] num)
         {
-           float sum = 0;
+           double sum = 0;
 
             for(int i=0; i < num.Length; i++)
             {
                 sum+=num[i];
             }
-            Console.WriteLine(sum);
+
+            return sum;
         }
 
     }

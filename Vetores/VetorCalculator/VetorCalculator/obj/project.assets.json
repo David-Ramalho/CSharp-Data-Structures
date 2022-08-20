@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\tavar\\.nuget\\packages\\": {}
+    "C:\\Users\\320141985\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tavar\\Documents\\GITHuB\\C# Data Structures\\CSharp--Data-Structures\\Vetores\\VetorCalculator\\VetorCalculator\\VetorCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\320141985\\Documents\\David\\Programing_studies\\CSharp-Data-Structures\\Vetores\\VetorCalculator\\VetorCalculator\\VetorCalculator.csproj",
       "projectName": "VetorCalculator",
-      "projectPath": "C:\\Users\\tavar\\Documents\\GITHuB\\C# Data Structures\\CSharp--Data-Structures\\Vetores\\VetorCalculator\\VetorCalculator\\VetorCalculator.csproj",
-      "packagesPath": "C:\\Users\\tavar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tavar\\Documents\\GITHuB\\C# Data Structures\\CSharp--Data-Structures\\Vetores\\VetorCalculator\\VetorCalculator\\obj\\",
+      "projectPath": "C:\\Users\\320141985\\Documents\\David\\Programing_studies\\CSharp-Data-Structures\\Vetores\\VetorCalculator\\VetorCalculator\\VetorCalculator.csproj",
+      "packagesPath": "C:\\Users\\320141985\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\320141985\\Documents\\David\\Programing_studies\\CSharp-Data-Structures\\Vetores\\VetorCalculator\\VetorCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tavar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\320141985\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
