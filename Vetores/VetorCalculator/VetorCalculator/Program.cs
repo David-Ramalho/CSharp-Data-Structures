@@ -130,7 +130,44 @@ namespace Course
                 {
                     Console.Clear();
                     Console.WriteLine("         ***Welcome to the calculator master!***\n");
+                    Console.WriteLine("Type number to Mult. if 0 is typed, then it's final");
                     Console.WriteLine("Times");
+                    double num = 1, num2 = 1;
+                    double total = 1;
+                    int i = 0;
+                    while (num != 0 || num2 != 0)
+                    {
+
+                        Console.WriteLine("\nDigite o número " + i);
+                        num = double.Parse(Console.ReadLine());
+                        if (num == 0)
+                        {
+                            Console.WriteLine("A mult é: " + total);
+                            break;
+
+                        }
+                        else
+                        {
+                            total = Calculator.Times(total, num);
+                            i++;
+                        }
+                        Console.WriteLine("\nDigite o número " + i);
+                        num2 = double.Parse(Console.ReadLine());
+                        i++;
+                        if (num2 == 0)
+                        {
+                            Console.WriteLine("A mult é: " + total);
+                            break;
+                        }
+                        else
+                        {
+                            total = Calculator.Times(total, num2);
+
+                        }
+
+                    }
+
+
                     Console.ReadKey();
                 }
                 else if (op == 4)

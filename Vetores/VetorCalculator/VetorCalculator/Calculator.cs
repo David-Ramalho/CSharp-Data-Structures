@@ -54,5 +54,15 @@ namespace VetorCalculator
 
         }
 
+        public static double Times(params double[] num)
+        {
+            double multi = 1;
+            for (int i = 0; i < num.Length; i++)
+            {
+                multi=multi*num[i];
+            }
+
+                return multi;
+        }
     }
 }
