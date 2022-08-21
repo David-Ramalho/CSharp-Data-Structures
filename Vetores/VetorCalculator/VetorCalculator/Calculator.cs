@@ -32,15 +32,21 @@ namespace VetorCalculator
             {
                 if (i == 0)
                 {
-                    sub = num[i]-sub;
+                     sub = num[i];
                     
                 }
-             
-                else if (i !=0)
+
+                else if (i ==1)
                 {
-                    sub =  sub-num[i];
+                    sub = sub-num[i];
 
                 }
+              
+                else
+                {
+                    sub = sub - num[i];
+                }
+               
 
 
             }

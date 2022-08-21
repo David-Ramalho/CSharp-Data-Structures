@@ -72,6 +72,7 @@ namespace Course
                 }
                 else if (op == 2)
                 {
+                    // I know the logic looks a little bit confusing, but it's working and I will improve it overtime. Remember, it's good for practice and I learned I lot in doing so!
                     int i = 0;
                     double num = -1;
                     double num2 = 0;
@@ -85,17 +86,26 @@ namespace Course
 
                         Console.WriteLine("\nDigite o número " + i);
                         num = double.Parse(Console.ReadLine());
-                        i++;
                         if (num == 0)
                         {
                             Console.WriteLine("A sub é: " + total);
                             break;
+
                         }
                         else
                         {
-                            Num = Calculator.Sub(num,total);
-                            total = Num;
+                            if (i == 0)
+                            {
+                                Num = Calculator.Sub(num, total);
+                                total = Num;
+                                i++;
+                            }
+                            else
+                            {
+                                Num = Calculator.Sub(total, num);
+                                total = Num;
 
+                            }
                         }
                         Console.WriteLine("\nDigite o número " + i);
                         num2 = double.Parse(Console.ReadLine());
@@ -107,8 +117,9 @@ namespace Course
                         }
                         else
                         {
-                            Num = Calculator.Sub(num2,total);
+                            Num = Calculator.Sub(total, num2);
                             total = Num;
+
 
                         }
 
