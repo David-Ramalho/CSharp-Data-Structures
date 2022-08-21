@@ -184,7 +184,7 @@ namespace Course
                     {
                         Console.WriteLine("Digte o número: ");
                         num = double.Parse(Console.ReadLine());
-                        nums[1] = num;
+                        nums[i] = num;
                         i++;
 
                     }
