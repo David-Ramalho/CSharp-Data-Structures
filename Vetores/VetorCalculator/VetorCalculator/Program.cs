@@ -172,24 +172,31 @@ namespace Course
                 }
                 else if (op == 4)
                 {
+                    // this function is not fully implemented yet, however it's operational with two numbers only.
                     Console.Clear();
                     Console.WriteLine("         ***Welcome to the calculator master!***\n");
                     Console.WriteLine("Type number to Mult. if 0 is typed, then it's final");
                     double num = 1;
+                    double num2 = 1;
                     int i = 0;
                     double[] nums= new double[i];
-                    
+                    double total = 0;
 
-                    while (num != 0)
-                    {
-                        Console.WriteLine("Digte o número: ");
+
+
+                    //while (num != 0)
+                    // {
+                    Console.WriteLine("Digte o número: ");
                         num = double.Parse(Console.ReadLine());
-                        nums[i] = num;
-                        i++;
+                        Console.WriteLine("Digte o número: ");
+                        num2 = double.Parse(Console.ReadLine());
+                        total = num / num2;
 
-                    }
-                    num = Calculator.By(nums);
 
+
+                    // }
+                    //num = Calculator.By(nums);
+                    Console.WriteLine(total);
                     Console.ReadKey();
                 }
                 else if (op == 0)
