@@ -22,13 +22,13 @@ namespace Course
                     double num = -1;
                     double num2 = 0;
                     double Num = 0;
-                    double total=0;
+                    double total = 0;
                     Console.Clear();
                     Console.WriteLine("         ***Welcome to the calculator master!***\n");
                     Console.WriteLine("Type number to sum. if 0 is typed, then it's final");
-                    while (num != 0 || num2!=0)
+                    while (num != 0 || num2 != 0)
                     {
-                                           
+
                         Console.WriteLine("\nDigite o número " + i);
                         num = double.Parse(Console.ReadLine());
                         //  Num = Num +Calculator.add(num, num2);
@@ -41,23 +41,23 @@ namespace Course
                         }
                         else
                         {
-                            Num = + Calculator.add(num, total);
-                            total= Num;                            
+                            Num = +Calculator.add(num, total);
+                            total = Num;
 
                         }
-                            Console.WriteLine("\nDigite o número " + i);
-                            num2 = double.Parse(Console.ReadLine());
+                        Console.WriteLine("\nDigite o número " + i);
+                        num2 = double.Parse(Console.ReadLine());
+                        //Num = Num + Calculator.add(num, num2);
+                        i++;
+                        if (num2 == 0)
+                        {
                             //Num = Num + Calculator.add(num, num2);
-                            i++;
-                            if(num2 == 0)
-                            {
-                                //Num = Num + Calculator.add(num, num2);
-                                Console.WriteLine("A soma é: " + total);
-                                break;
-                            }
-                            else
-                            {
-                             Num =  Calculator.add(total, num2);
+                            Console.WriteLine("A soma é: " + total);
+                            break;
+                        }
+                        else
+                        {
+                            Num = Calculator.add(total, num2);
                             total = Num;
                         }
 
@@ -72,9 +72,47 @@ namespace Course
                 }
                 else if (op == 2)
                 {
+                    int i = 0;
+                    double num = -1;
+                    double num2 = 0;
+                    double Num = 0;
+                    double total = 0;
                     Console.Clear();
                     Console.WriteLine("         ***Welcome to the calculator master!***\n");
-                    Console.WriteLine("Sub");
+                    Console.WriteLine("Type number to sub. if 0 is typed, then it's final");
+                    while (num != 0 || num2 != 0)
+                    {
+
+                        Console.WriteLine("\nDigite o número " + i);
+                        num = double.Parse(Console.ReadLine());
+                        i++;
+                        if (num == 0)
+                        {
+                            Console.WriteLine("A sub é: " + total);
+                            break;
+                        }
+                        else
+                        {
+                            Num = Calculator.Sub(num,total);
+                            total = Num;
+
+                        }
+                        Console.WriteLine("\nDigite o número " + i);
+                        num2 = double.Parse(Console.ReadLine());
+                        i++;
+                        if (num2 == 0)
+                        {
+                            Console.WriteLine("A sub é: " + total);
+                            break;
+                        }
+                        else
+                        {
+                            Num = Calculator.Sub(num2,total);
+                            total = Num;
+
+                        }
+
+                    }
                     Console.ReadKey();
                 }
                 else if (op == 3)
