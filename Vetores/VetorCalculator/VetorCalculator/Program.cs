@@ -174,7 +174,22 @@ namespace Course
                 {
                     Console.Clear();
                     Console.WriteLine("         ***Welcome to the calculator master!***\n");
-                    Console.WriteLine("By");
+                    Console.WriteLine("Type number to Mult. if 0 is typed, then it's final");
+                    double num = 1;
+                    int i = 0;
+                    double[] nums= new double[i];
+                    
+
+                    while (num != 0)
+                    {
+                        Console.WriteLine("Digte o número: ");
+                        num = double.Parse(Console.ReadLine());
+                        nums[1] = num;
+                        i++;
+
+                    }
+                    num = Calculator.By(nums);
+
                     Console.ReadKey();
                 }
                 else if (op == 0)

@@ -64,5 +64,18 @@ namespace VetorCalculator
 
                 return multi;
         }
+        
+        public static double By(params double[] num)
+        {
+            double total=0;
+
+            for(int i=0; i < num.Length;i++)
+            {
+               double by= num[i-1] / num[i];
+                total = total + by;
+
+            }
+            return total;
+        }
     }
 }
