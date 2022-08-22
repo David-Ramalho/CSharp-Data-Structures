@@ -26,6 +26,9 @@ namespace Course
                     Console.Clear();
                     Console.WriteLine("         ***Welcome to the calculator master!***\n");
                     Console.WriteLine("Type number to sum. if 0 is typed, then it's final");
+                    Console.WriteLine("                     \nTotal: [ " + total + " ]\n");
+                    
+                    
                     while (num != 0 || num2 != 0)
                     {
 
@@ -36,6 +39,10 @@ namespace Course
                         if (num == 0)
                         {
                             // Num = Num + Calculator.add(num, num2);
+                            Console.Clear();
+                            Console.WriteLine("         ***Welcome to the calculator master!***\n");
+                            Console.WriteLine("Type number to sum. if 0 is typed, then it's final");
+                            Console.WriteLine("                     \nTotal: [ " + total + " ]\n");
                             Console.WriteLine("A soma é: " + total);
                             break;
                         }
@@ -43,6 +50,10 @@ namespace Course
                         {
                             Num = +Calculator.add(num, total);
                             total = Num;
+                            Console.Clear();
+                            Console.WriteLine("         ***Welcome to the calculator master!***\n");
+                            Console.WriteLine("Type number to sum. if 0 is typed, then it's final");
+                            Console.WriteLine("                     \nTotal: [ " + total + " ]\n");
 
                         }
                         Console.WriteLine("\nDigite o número " + i);
@@ -52,13 +63,22 @@ namespace Course
                         if (num2 == 0)
                         {
                             //Num = Num + Calculator.add(num, num2);
+                            Console.Clear();
+                            Console.WriteLine("         ***Welcome to the calculator master!***\n");
+                            Console.WriteLine("Type number to sum. if 0 is typed, then it's final");
+                            Console.WriteLine("                     \nTotal: [ " + total + " ]\n");
                             Console.WriteLine("A soma é: " + total);
+
                             break;
                         }
                         else
                         {
                             Num = Calculator.add(total, num2);
                             total = Num;
+                            Console.Clear();
+                            Console.WriteLine("         ***Welcome to the calculator master!***\n");
+                            Console.WriteLine("Type number to sum. if 0 is typed, then it's final");
+                            Console.WriteLine("                     \nTotal: [ " + total + " ]\n");
                         }
 
 
