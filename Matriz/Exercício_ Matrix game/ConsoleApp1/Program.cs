@@ -56,9 +56,15 @@ namespace Course
                     if (num == mat[i, j])
                     {
                         Console.WriteLine("\nPosition:\nLine "+ i+"\nColumn: "+j);
+                        Console.WriteLine("\nLeft: "+ mat[i, j-1]);
+                        Console.WriteLine("\nRight: " + mat[i, j +1]);
+                        Console.WriteLine("\nTop: " + mat[i-1, j ]);
+                        Console.WriteLine("\nBottom: " + mat[i + 1, j]);
+
                     }
                 }
             }
+            Console.ReadKey();
 
 
 
