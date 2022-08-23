@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Globalization;
-
+using Lists;
 
 namespace Course
 {
@@ -11,6 +11,8 @@ namespace Course
         static void Main(string[] args)
         {
             int op = -1;
+            List<Employee> list = new List<Employee>();
+
             Console.Clear();
             Console.WriteLine("                      ***Human resource Management***\n\n");
             while (op != 0)
@@ -18,14 +20,28 @@ namespace Course
                 Console.Clear();
                 Console.WriteLine("                      ***Human resource Management***\n\n");
                 Console.WriteLine("Select the desired option:\n");
-                
+
                 Console.Write("1-Register employee\n2-Employee report\n3-Modify wage\n0-Sair\n\nType here: ");
                 op = int.Parse(Console.ReadLine());
                 if (op == 1)
                 {
                     Console.Clear();
                     Console.WriteLine("                      ***Human resource Management***\n\n");
-                    Console.WriteLine("Registering");
+                    Console.WriteLine("How many Employees will be registered?");
+                    int num = int.Parse(Console.ReadLine());
+
+                    for (int i = 0; i <= num; i++)
+                    {
+                        Console.Write("\nName: ");
+                        string name = Console.ReadLine();
+
+                        Console.WriteLine("\nWage: ");                        
+                        double wage = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);                        
+
+                        list.Add(new Employee(name, wage));
+
+                    }
+
                     Console.ReadKey();
                 }
                 else if (op == 2)
@@ -46,7 +62,7 @@ namespace Course
                 {
                     Console.Clear();
                     Console.WriteLine("                      ***human resource Management***\n\n");
-                    Console.WriteLine("exiting");                    
+                    Console.WriteLine("exiting");
                     Console.ReadKey();
 
                 }
