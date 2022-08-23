@@ -15,7 +15,7 @@ namespace Course
 
             Console.Clear();
             Console.WriteLine("                      ***Human resource Management***\n\n");
-            Console.WriteLine("                      ["+list.Count+"]");
+            Console.WriteLine("                      [" + list.Count + "]");
             while (op != 0)
             {
                 Console.Clear();
@@ -44,12 +44,29 @@ namespace Course
                         Console.Write("\nNick ID: ");
                         int nickId = int.Parse(Console.ReadLine());
 
-                        list.Add(new Employee(name, wage, nickId));
+
+                        int x = Employee.NickIDControl(nickId, list);
+                        if (x == 0)
+                        {
+                            list.Add(new Employee(name, wage, nickId));
+                            Console.Clear();
+                            Console.WriteLine("                      ***Human resource Management***\n\n");
+                            Console.WriteLine("Done!");
+                        }
+                        else
+                        {
+                            Console.Clear();
+                            Console.WriteLine("                      ***Human resource Management***\n\n");
+                            Console.WriteLine("Inválid Nick ID.\nreturn -1 ");
+                            Console.ReadKey();
+                            break;
+                        }
+                        
+
+                        
 
                     }
-                    Console.Clear();
-                    Console.WriteLine("                      ***Human resource Management***\n\n");
-                    Console.WriteLine("Done!");
+                    Console.Clear();                   
                     Console.ReadKey();
                 }
                 else if (op == 2)
@@ -84,7 +101,7 @@ namespace Course
                         Console.ReadKey();
                         Console.Clear();
 
-                        Console.WriteLine("Old wage: "+ oldWage+" New wage: "+ Newwage + " A raise of "+p+"%");
+                        Console.WriteLine("Old wage: " + oldWage + " New wage: " + Newwage + " A raise of " + p + "%");
                         Console.WriteLine("\n\nUpdated list of employee:\n\n");
                         Console.WriteLine(emp);
 
@@ -95,9 +112,9 @@ namespace Course
                         Console.WriteLine("\nNo employees with that Nick ID");
                         Console.ReadKey();
                     }
-                    
-                        Console.ReadKey();
-                    
+
+                    Console.ReadKey();
+
                 }
 
                 else if (op == 0)
@@ -117,8 +134,8 @@ namespace Course
                     // Thread.Sleep(3000);
                 }
 
+            }
+            Console.ReadKey();
         }
-        Console.ReadKey();
-        }
-}
+    }
 }
