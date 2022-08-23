@@ -15,10 +15,12 @@ namespace Course
 
             Console.Clear();
             Console.WriteLine("                      ***Human resource Management***\n\n");
+            Console.WriteLine("                      ["+list.Count+"]");
             while (op != 0)
             {
                 Console.Clear();
-                Console.WriteLine("                      ***Human resource Management***\n\n");
+                Console.WriteLine("                      ***Human resource Management***");
+                Console.WriteLine("Employees: [" + list.Count + "]\n\n");
                 Console.WriteLine("Select the desired option:\n");
 
                 Console.Write("1-Register employee\n2-Employee report\n3-Modify wage\n0-Sair\n\nType here: ");
