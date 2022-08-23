@@ -30,9 +30,10 @@ namespace Course
                     Console.WriteLine("How many Employees will be registered?");
                     int num = int.Parse(Console.ReadLine());
 
-                    for (int i = 0; i <= num; i++)
+                    for (int i = 0; i < num; i++)
                     {
-                        Console.Write("\nName: ");
+                        int j = i + 1;
+                        Console.Write("\nName "+ j+": ");
                         string name = Console.ReadLine();
 
                         Console.WriteLine("\nWage: ");                        
@@ -41,14 +42,21 @@ namespace Course
                         list.Add(new Employee(name, wage));
 
                     }
-
+                    Console.Clear();
+                    Console.WriteLine("                      ***Human resource Management***\n\n");
+                    Console.WriteLine("Done!");
                     Console.ReadKey();
                 }
                 else if (op == 2)
                 {
                     Console.Clear();
                     Console.WriteLine("                      ***Human resource Management***\n\n");
-                    Console.WriteLine("Reporting");
+                    Console.WriteLine("Employee's numbers: " + list.Count+ "\n");
+                    foreach (Employee obj in list)
+                    {
+                        Console.WriteLine(obj);
+                    }
+                    
                     Console.ReadKey();
                 }
                 else if (op == 3)

@@ -27,6 +27,17 @@ namespace Lists
         {
             NewWage = (wage * (P / 100)) + wage;
         }
+        public override string ToString()
+        {
+            return
+                "Employee's name: " + Name +
+                " " +
+                "\nEmployee's Wage: " + Wage + "$" +
+                " " +
+                "\nEmployee's ID: " + ID +
+                "\n\n ";
+
+        }
 
     }
 }
