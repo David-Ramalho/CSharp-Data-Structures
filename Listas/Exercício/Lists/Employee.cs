@@ -13,15 +13,19 @@ namespace Lists
         public string Name { get; private set; }
 
         private double Wage;
+        public int NickID;
 
         // Constructor
-        public Employee(string name, double wage)
+        public Employee(string name, double wage, int nickId)
         {
             Name = name;
             Wage = wage;
             Random numAleatorio = new Random();
             ID = numAleatorio.Next();
+            NickID = nickId;
         }
+
+
 
         public static void increaseWage(double P, double wage, out double NewWage)
         {
@@ -35,6 +39,7 @@ namespace Lists
                 "\nEmployee's Wage: " + Wage + "$" +
                 " " +
                 "\nEmployee's ID: " + ID +
+                "\nNick Id: "+ NickID +
                 "\n\n ";
 
         }

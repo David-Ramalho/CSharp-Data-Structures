@@ -37,9 +37,12 @@ namespace Course
                         string name = Console.ReadLine();
 
                         Console.WriteLine("\nWage: ");                        
-                        double wage = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);                        
+                        double wage = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-                        list.Add(new Employee(name, wage));
+                        Console.Write("\nNick ID: ");
+                        int nickId = int.Parse(Console.ReadLine());
+
+                        list.Add(new Employee(name, wage, nickId));
 
                     }
                     Console.Clear();
@@ -63,7 +66,7 @@ namespace Course
                 {
                     Console.Clear();
                     Console.WriteLine("                      ***Human resource Management***\n\n");
-                    Console.WriteLine("Modifying");
+                    Console.Write("Type the employee's NickID: ");
                     Console.ReadKey();
                 }
                 else if (op == 0)
