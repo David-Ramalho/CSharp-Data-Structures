@@ -12,31 +12,44 @@ namespace Lists
         // Employee can changes names, however a constructor is better for those cases
         public string Name { get; private set; }
 
-        private double Wage;
+        private double _wage;
         public int NickID;
 
         // Constructor
         public Employee(string name, double wage, int nickId)
         {
             Name = name;
-            Wage = wage;
+            _wage = wage;
             Random numAleatorio = new Random();
             ID = numAleatorio.Next();
             NickID = nickId;
         }
 
-
-
-        public static void increaseWage(double P, double wage, out double NewWage)
+        public double GetWage()
         {
-            NewWage = (wage * (P / 100)) + wage;
+            return _wage;
+        }
+
+        public double SetWage()
+        {
+            return _wage;
+        }
+
+
+        public  void increaseWage(double P)
+        {
+            double NewWage;
+
+            NewWage = (_wage * (P / 100)) + _wage;
+            _wage = NewWage;
+            
         }
         public override string ToString()
         {
             return
                 "Employee's name: " + Name +
                 " " +
-                "\nEmployee's Wage: " + Wage + "$" +
+                "\nEmployee's Wage: " + _wage + "$" +
                 " " +
                 "\nEmployee's ID: " + ID +
                 "\nNick Id: "+ NickID +
